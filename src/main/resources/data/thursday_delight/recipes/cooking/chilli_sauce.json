@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "thursday_delight:chili"
+    },
+    {
+      "item": "thursday_delight:chili"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "thursday_delight:chilli_sauce"
+  }
+}

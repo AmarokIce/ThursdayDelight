@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "thursday_delight:chicken_tako",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "thursday_delight:chilli_sauce"
+    },
+    {
+      "item": "with_thursday:cooked_chicken_breast"
+    },
+    {
+      "item": "thursday_delight:big_chicken"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

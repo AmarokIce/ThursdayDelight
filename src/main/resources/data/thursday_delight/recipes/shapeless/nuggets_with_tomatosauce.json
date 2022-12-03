@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:nuggets_with_tomatosauce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "with_thursday:chicken_nugget"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

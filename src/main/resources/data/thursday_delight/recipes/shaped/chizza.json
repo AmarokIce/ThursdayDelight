@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "SSS",
+    "PBP"
+  ],
+  "key": {
+    "C":
+    {
+      "item": "with_thursday:cheese"
+    },
+    "S":
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "P":
+    {
+      "item": "with_thursday:cooked_chicken_breast"
+    },
+    "B":
+    {
+      "item": "thursday_delight:big_chicken"
+    }
+  },
+  "result":
+  {
+    "item": "thursday_delight:chizza",
+    "count": 1
+  }
+}

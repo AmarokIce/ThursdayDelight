@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "thursday_delight:chicken_salad",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "with_thursday:cooked_chicken_breast"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

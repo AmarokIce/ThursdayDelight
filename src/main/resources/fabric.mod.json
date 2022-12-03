@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "thursday_delight",
+  "version": "${version}",
+
+  "name": "Thursday Delight",
+  "description": "周四有乐事!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "Pineapple",
+  "icon": "assets/thursday_delight/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "club.someoneice.thursday_delight.ThursdayMainKt::init"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "farmersdelight": "*",
+    "with_thursday": "*",
+    "minecraft": "1.18.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

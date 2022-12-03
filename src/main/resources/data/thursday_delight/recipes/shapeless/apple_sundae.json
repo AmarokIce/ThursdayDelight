@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:apple_sundae",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "with_thursday:sundae"
+    },
+    {
+      "item": "thursday_delight:apple_jam"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

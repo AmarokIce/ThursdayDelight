@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:sausage_with_chillisauce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "thursday_delight:chilli_sauce"
+    },
+    {
+      "item": "with_thursday:thuringia_sausage"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "PLP",
+    "PPP"
+  ],
+  "key": {
+    "L":
+    {
+      "item": "minecraft:leather"
+    },
+    "P":
+    {
+      "item": "minecraft:paper"
+    }
+  },
+  "result":
+  {
+    "item": "thursday_delight:dinner_package",
+    "count": 1
+  }
+}

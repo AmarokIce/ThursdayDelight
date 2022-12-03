@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:original_with_chillisauce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "thursday_delight:chilli_sauce"
+    },
+    {
+      "item": "with_thursday:original_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:chicken"
+    }
+  ],
+  "result": [
+    {
+      "item": "with_thursday:chicken_wings",
+      "count": 2
+    },
+    {
+      "item": "with_thursday:chicken_breast",
+      "count": 3
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

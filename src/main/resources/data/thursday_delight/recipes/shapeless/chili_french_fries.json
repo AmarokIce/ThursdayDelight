@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "thursday_delight:chili_french_fries",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "thursday_delight:chilli_sauce"
+    },
+    {
+      "item": "with_thursday:french_fries"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

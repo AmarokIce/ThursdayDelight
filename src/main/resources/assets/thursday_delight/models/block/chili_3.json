@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "thursday_delight:block/chili_3"
+  }
+}

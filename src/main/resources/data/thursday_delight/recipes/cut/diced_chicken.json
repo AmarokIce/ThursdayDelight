@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "with_thursday:chicken_breast"
+    }
+  ],
+  "result": [
+    {
+      "item": "with_thursday:diced_chicken",
+      "count": 6
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

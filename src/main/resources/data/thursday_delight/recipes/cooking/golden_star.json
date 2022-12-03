@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "with_thursday:crumbs"
+    },
+    {
+      "tag": "c:raw_fishes"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "result": {
+    "item": "thursday_delight:golden_star",
+    "count": 5
+  }
+}
