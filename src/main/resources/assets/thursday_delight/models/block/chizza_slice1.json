@@ -1,0 +1,10 @@
+{
+  "parent": "farmersdelight:block/pie_slice1",
+  "textures": {
+    "particle": "thursday_delight:block/chizza_top",
+    "bottom": "thursday_delight:block/pie_bottom",
+    "inner": "thursday_delight:block/chizza_inner",
+    "side": "thursday_delight:block/pie_side",
+    "top": "thursday_delight:block/chizza_top"
+  }
+}

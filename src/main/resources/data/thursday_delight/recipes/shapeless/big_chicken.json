@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "thursday_delight:big_chicken",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "with_thursday:cooked_chicken_breast"
+    },
+    {
+      "item": "with_thursday:cooked_chicken_breast"
+    },
+    {
+      "item": "with_thursday:crumbs"
+    },
+    {
+      "item": "with_thursday:crumbs"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:potato_pie_with_sweetchillisauce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "thursday_delight:sweet_chilli_sauce"
+    },
+    {
+      "item": "with_thursday:potato_pie"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

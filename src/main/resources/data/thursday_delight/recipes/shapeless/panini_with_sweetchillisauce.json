@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:panini_with_sweetchillisauce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "thursday_delight:sweet_chilli_sauce"
+    },
+    {
+      "item": "with_thursday:pnn_bread"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

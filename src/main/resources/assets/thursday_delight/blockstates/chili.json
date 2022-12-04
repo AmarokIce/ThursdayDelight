@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "thursday_delight:block/chili_0" },
+    "age=1": { "model": "thursday_delight:block/chili_0" },
+    "age=2": { "model": "thursday_delight:block/chili_1" },
+    "age=3": { "model": "thursday_delight:block/chili_1" },
+    "age=4": { "model": "thursday_delight:block/chili_1" },
+    "age=5": { "model": "thursday_delight:block/chili_2" },
+    "age=6": { "model": "thursday_delight:block/chili_2" },
+    "age=7": { "model": "thursday_delight:block/chili_3" }
+  }
+}

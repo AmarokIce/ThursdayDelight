@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "thursday_delight:french_fries_with_tomatosauce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "with_thursday:french_fries"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}
