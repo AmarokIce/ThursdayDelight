@@ -135,15 +135,16 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    flatDir {
-        dir 'libs'
+    maven {
+        url "https://cursemaven.com"
     }
 }
 
 dependencies {
 
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.0'
-    implementation "vectorwing.farmersdelight:FarmersDelight-1.18.2-1.2.0"
+    implementation "curse.maven:farmers_delight-398521:3999153"
+
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
