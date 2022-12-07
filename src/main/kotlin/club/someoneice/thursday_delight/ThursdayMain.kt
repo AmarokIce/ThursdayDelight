@@ -2,7 +2,6 @@ package club.someoneice.thursday_delight
 
 // import club.someoneice.thursday_delight.client.Screens
 
-import club.someoneice.thursday_delight.daata.DataGenerator
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack

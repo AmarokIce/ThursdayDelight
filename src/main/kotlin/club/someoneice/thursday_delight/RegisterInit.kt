@@ -3,7 +3,6 @@ package club.someoneice.thursday_delight
 import club.someoneice.thursday_delight.FoodWithSauceBase.Sauce
 import club.someoneice.thursday_delight.chili.Chili
 import club.someoneice.thursday_delight.chili.ChiliCrop
-import club.someoneice.thursday_delight.daata.DataGenerator
 import club.someoneice.thursday_delight.dinner_package.DinnerPackage
 import com.nhoryzon.mc.farmersdelight.block.PieBlock
 import net.fabricmc.api.EnvType
@@ -155,7 +154,6 @@ public object RegisterInit {
 /* Registry item in auto and output item. */
 fun RegisterInit.RegistryItem(name: String, itemListItem: Item): Item {
     Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), itemListItem)
-    DataGenerator.ItemList.add(itemListItem)    // TODO
     return itemListItem
 }
 
