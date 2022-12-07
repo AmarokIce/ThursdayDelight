@@ -2,9 +2,11 @@ buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
         mavenCentral()
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public' }
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath "org.spongepowered:mixingradle:0.7-SNAPSHOT"
     }
 }
 plugins {
@@ -12,6 +14,7 @@ plugins {
     id 'maven-publish'
 }
 apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.spongepowered.mixin'
 
 version = '1.0'
 group = 'club.someoneice.thursday_delight'
@@ -58,10 +61,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'thursday_delight'
 
             mods {
-                examplemod {
+                thursday_delight {
                     source sourceSets.main
                 }
             }
@@ -75,10 +78,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'thursday_delight'
 
             mods {
-                examplemod {
+                thursday_delight {
                     source sourceSets.main
                 }
             }
@@ -103,10 +106,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'thursday_delight'
 
             mods {
-                examplemod {
+                thursday_delight {
                     source sourceSets.main
                 }
             }
@@ -120,10 +123,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'thursday_delight', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                examplemod {
+                thursday_delight {
                     source sourceSets.main
                 }
             }
@@ -141,10 +144,9 @@ repositories {
 }
 
 dependencies {
-
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.0'
-    implementation "curse.maven:farmers_delight-398521:3999153"
-
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.60'
+    implementation fg.deobf("curse.maven:farmers_delight-398521:3999153")
+    annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

@@ -37,7 +37,7 @@ public class ThursdayMain {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         ItemList.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BlockList.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        // BlockEntityList.BLOCKENTITY.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockEntityList.BLOCKENTITY.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
