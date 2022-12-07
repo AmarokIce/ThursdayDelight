@@ -17,10 +17,10 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 
-public class DinnerPackageTileEntity extends BlockEntity {
+public class DinnerPackageBlockEntity extends BlockEntity {
     private final SimpleContainer itemList = new SimpleContainer(3);
     private final LazyOptional<IItemHandler> handler = LazyOptional.of(() -> new InvWrapper(itemList));
-    public DinnerPackageTileEntity(BlockPos pos, BlockState state) {
+    public DinnerPackageBlockEntity(BlockPos pos, BlockState state) {
         super(BlockEntityList.DinnerItem.get(), pos, state);
     }
 

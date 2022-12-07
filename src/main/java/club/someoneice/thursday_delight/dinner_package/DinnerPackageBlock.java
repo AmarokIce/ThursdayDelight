@@ -27,9 +27,9 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class DinnerPackage extends Block implements EntityBlock {
+public class DinnerPackageBlock extends Block implements EntityBlock {
 
-    public DinnerPackage() {
+    public DinnerPackageBlock() {
         super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GLASS).noOcclusion());
     }
 
@@ -85,10 +85,10 @@ public class DinnerPackage extends Block implements EntityBlock {
     public List<ItemStack> getDrops(BlockState blockState, LootContext.Builder builder) {
         var ret = BlockList.DinnerPackage.get().getDefaultInstance();
         BlockEntity blockentity = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
-        if(blockentity instanceof DinnerPackageTileEntity dinnerPackageTileEntity){
-            if(!dinnerPackageTileEntity.isItemListEmpty()){
+        if(blockentity instanceof DinnerPackageBlockEntity dinnerPackageBlockEntity){
+            if(!dinnerPackageBlockEntity.isItemListEmpty()){
                 var tag = ret.getOrCreateTag();
-                tag.put("contents",dinnerPackageTileEntity.createItemListTag());
+                tag.put("contents", dinnerPackageBlockEntity.createItemListTag());
             }
         }
         return Collections.singletonList(ret);
@@ -96,7 +96,7 @@ public class DinnerPackage extends Block implements EntityBlock {
 
     @Override
     public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-        return new DinnerPackageTileEntity(blockPos, blockState);
+        return new DinnerPackageBlockEntity(blockPos, blockState);
     }
 
     @Override
@@ -104,8 +104,8 @@ public class DinnerPackage extends Block implements EntityBlock {
         var tag = itemStack.getOrCreateTag();
         if(tag.contains("contents")){
             BlockEntity blockentity = level.getBlockEntity(blockPos);
-            if(blockentity instanceof DinnerPackageTileEntity dinnerPackageTileEntity){
-                dinnerPackageTileEntity.loadItemListFromTag((ListTag) tag.get("contents"));
+            if(blockentity instanceof DinnerPackageBlockEntity dinnerPackageBlockEntity){
+                dinnerPackageBlockEntity.loadItemListFromTag((ListTag) tag.get("contents"));
             }
         }
 
