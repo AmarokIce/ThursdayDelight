@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.0'
+version = '1.0.1'
 group = 'club.someoneice.thursday_delight'
 archivesBaseName = 'ThursdayDelight'
 
@@ -146,6 +146,8 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.60'
     implementation fg.deobf("curse.maven:farmers_delight-398521:3999153")
+    // implementation fg.deobf("curse.maven:with_thursday-643677:4429565")
+    // implementation fg.deobf("curse.maven:jei-238222:5068328")
     annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
 }
 
