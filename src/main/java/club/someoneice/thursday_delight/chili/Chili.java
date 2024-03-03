@@ -10,7 +10,7 @@ import net.minecraft.world.level.Level;
 
 public class Chili extends BlockItem {
     public Chili() {
-        super(BlockList.ChilliCrop.get() ,new Properties().tab(ThursdayMain.TAB).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1f).fast().alwaysEat().build()).fireResistant());
+        super(BlockList.ChiliCrop.get() ,new Properties().tab(ThursdayMain.TAB).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1f).fast().alwaysEat().build()).fireResistant());
     }
 
     @Override
